@@ -4,21 +4,21 @@
 #Etude API
 
 1. l’API GitHub : https://developer.github.com/v3/ permet:
-	- d'obtenir les repertoires, les statistiques ect d'un utilisateur donne
-	- de creer les repertoires,les branches ect d'un utilisateur donne
+	* d'obtenir les repertoires, les statistiques ect d'un utilisateur donne
+	* de creer les repertoires,les branches ect d'un utilisateur donne
 2. l' API de Météo, par exemple : https://developer.yahoo.com/weather/ permet :
-	- d'obtenir la meteo actuelle d'une localisation donnee, ainsi que les previsions ect 
+	* d'obtenir la meteo actuelle d'une localisation donnee, ainsi que les previsions ect 
 
 #Lister des requêtes possibles
 
 1. Liste des 5 demande pouvant etre faite par une application cliente:
-	-Pour l'API github:
-		- Liste de repertoire d'un utilisateur donne 
-		- Le nombre de commit dans un repertoire donne 
-		- plusieurs statistique sur un utilisateur ou sur un repertoire 
-	-Pour l'API meteo:
-		- La meteo actuelle d'une localisation donnee
-		- les previsions
+	* Pour l'API github:
+		* Liste de repertoire d'un utilisateur donne 
+		* Le nombre de commit dans un repertoire donne 
+		* plusieurs statistique sur un utilisateur ou sur un repertoire 
+	* Pour l'API meteo:
+		* La meteo actuelle d'une localisation donnee
+		* les previsions
 2. Mon choix ce porte sur l'API Meteo 
 3. Lister des requêtes POST.(je ne controlle pas l'atmosphere...pour l'instant!)
 4. Requet GET :
@@ -142,15 +142,15 @@
 
 #Conception Application Cliente
 1. Liste des fonctionnalités pour l'utilisateur :
-	- consulter la meteo actuelle d'une localisation donnee 
-	- consulter les previsions meteo 
+	* consulter la meteo actuelle d'une localisation donnee 
+	* consulter les previsions meteo 
 2. Fonctionalites applicatives
-	-Avec un app mobile l'utilisateur :
-		- cherche a avoir la temperature actuelle  instantanement 
-		- Veut avoir les prevision des heures ou jours a venir en un coup d'oeil
-	-Avec un app web l'utilisateur :
-		- va plus chercher les details 
-		- consulte l'historique
+	*Avec un app mobile l'utilisateur :
+		* cherche a avoir la temperature actuelle  instantanement 
+		* Veut avoir les prevision des heures ou jours a venir en un coup d'oeil
+	*Avec un app web l'utilisateur :
+		* va plus chercher les details 
+		* consulte l'historique
 3. Faire des ébauches d’interfaces possibles pour deux applications clientes, une Mobile et une Web.
-	![prototype app meteo](/PrototypeAppApiMeteo.png)
-	![prototype app meteo](/PrototypeAppApiMeteo1.png)
+	![prototypeappapimeteo](https://cloud.githubusercontent.com/assets/15783589/11319119/4606e85a-906c-11e5-8044-caa33b819a67.png)
+	![prototypeappapimeteo1](https://cloud.githubusercontent.com/assets/15783589/11319125/65312d76-906c-11e5-8cf6-4ed9a0057405.png)
