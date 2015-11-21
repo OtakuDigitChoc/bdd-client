@@ -141,6 +141,16 @@
 ```
 
 #Conception Application Cliente
-1. Lister les fonctionnalités applications correspondant aux requêtes.
-2. Hiérarchiser les fonctionnalités applicatives et les classer selon les deux types de clients : Mobile et Web.
+1. Liste des fonctionnalités pour l'utilisateur :
+	- consulter la meteo actuelle d'une localisation donnee 
+	- consulter les previsions meteo 
+2. Fonctionalites applicatives
+	-Avec un app mobile l'utilisateur :
+		- cherche a avoir la temperature actuelle  instantanement 
+		- Veut avoir les prevision des heures ou jours a venir en un coup d'oeil
+	-Avec un app web l'utilisateur :
+		- va plus chercher les details 
+		- consulte l'historique
 3. Faire des ébauches d’interfaces possibles pour deux applications clientes, une Mobile et une Web.
+	![prototype app meteo](/PrototypeAppApiMeteo.png)
+	![prototype app meteo](/PrototypeAppApiMeteo1.png)
