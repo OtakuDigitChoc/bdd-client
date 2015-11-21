@@ -7,7 +7,7 @@
 	- d'obtenir les repertoires, les statistiques ect d'un utilisateur donne
 	- de creer les repertoires,les branches ect d'un utilisateur donne
 2. l' API de Météo, par exemple : https://developer.yahoo.com/weather/ permet :
-	_ d'obtenir la meteo actuelle d'une localisation donnee, ainsi que les previsions ect 
+	- d'obtenir la meteo actuelle d'une localisation donnee, ainsi que les previsions ect 
 
 #Lister des requêtes possibles
 
