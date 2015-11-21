@@ -11,11 +11,18 @@
 
 #Lister des requêtes possibles
 
-1. Pour chaque API, lister au 5 à 8 demandes de service possible pour une application Cliente.
-2. Choisir une des API et continuer les exercices avec celle-ci.
-3. Lister des requêtes POST.
-4. Lister des requêtes GET.
-5. Pour l’API Github, faire des requêtes authentifiées (token).
+1. Liste des 5 demande pouvant etre faite par une application cliente:
+	-Pour l'API github:
+		- Liste de repertoire d'un utilisateur donne 
+		- Le nombre de commit dans un repertoire donne 
+		- plusieurs statistique sur un utilisateur ou sur un repertoire 
+	-Pour l'API meteo:
+		- La meteo actuelle d'une localisation donnee
+		- les previsions
+2. Mon choix ce porte sur l'API Meteo 
+3. Lister des requêtes POST.(je ne controlle pas l'atmosphere...pour l'instant!)
+4. Requet GET :
+`https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nice%2C%20FR%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys`
 
 #Tester les requêtes
 
