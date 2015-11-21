@@ -27,7 +27,7 @@
 #Tester les requêtes
 
 1. Le test avec la requet cite precedement avec postman a donne:
-```{
+```[{
   "query": {
     "count": 1,
     "created": "2015-11-21T14:13:09Z",
@@ -136,7 +136,7 @@
       }
     }
   }
-} ```
+}]```
 
 #Conception Application Cliente
 1. Lister les fonctionnalités applications correspondant aux requêtes.
